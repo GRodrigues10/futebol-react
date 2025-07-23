@@ -11,8 +11,8 @@ A aplicação utiliza as seguintes tecnologias e conceitos:
 
 O projeto é uma base sólida que pode ser expandida para incluir funcionalidades como:
 
-Estatísticas detalhadas dos jogadores.
+- Estatísticas detalhadas dos jogadores.
 
-Histórico de confrontos entre equipes.
+- Histórico de confrontos entre equipes.
 
-Integração com APIs externas de dados esportivos para atualização em tempo real
+- Integração com APIs externas de dados esportivos para atualização em tempo real
