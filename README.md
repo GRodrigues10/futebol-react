@@ -1,6 +1,6 @@
 # Projeto Clubes de Futebol - React
 
-#Sobre o Projeto
+# Sobre o Projeto
 Este projeto foi desenvolvido com React e tem como objetivo explorar e exibir informações sobre os principais clubes de futebol do mundo. Através de uma interface moderna e dinâmica, os usuários podem navegar entre as páginas dos times, visualizar partidas recentes, placares e outros detalhes relevantes.
 
 A aplicação utiliza as seguintes tecnologias e conceitos:
