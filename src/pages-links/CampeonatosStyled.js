@@ -80,5 +80,94 @@ export const CampeonatoStyles = styled.div `
     background-color: #2d2f3a93;
   }
 
+  @media screen and (max-width:930px) {
+      h1{
+        font-size: 2.8rem;
+      }
+      p{
+        font-size: 1.4rem ;
+      }
+
+      .box h1{
+        font-size: 2.8rem;
+      }
+
+      .box p{
+        font-size: 1.3rem;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+    h1{
+        font-size: 2.6rem;
+      }
+      p{
+        font-size: 1.3rem ;
+      }
+
+      .box h1{
+        font-size: 2rem;
+      }
+
+      .box p{
+        font-size: 1.080rem;
+      }
+  }
+
+  @media screen and (max-width:520px){
+     h1{
+        font-size: 2.5rem;
+      }
+      p{
+        font-size: 1.2rem ;
+      }
+
+      .box h1{
+        font-size: 1.6rem;
+      }
+
+      .box p{
+        font-size: 1rem;
+      }
+  }
+
+  @media screen and (max-width:480px) {
+      h1{
+        font-size: 2.3rem;
+      }
+      p{
+        font-size: 1.1rem ;
+      }
+
+      .box h1{
+        font-size: 2.2rem;
+      }
+
+      .box p{
+        font-size: 0.9rem;
+      }
+  }
+
+  @media screen and (max-width:479px){
+       h1{
+        font-size: 2.1rem;
+      }
+      p{
+        font-size: 1rem ;
+      }
+
+      .box h1{
+        font-size: 2rem;
+      }
+
+      .box p{
+        font-size: 0.86rem;
+      }
+
+    }
+
+
+
+
     
 `
