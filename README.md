@@ -3,11 +3,11 @@ Este projeto foi desenvolvido com React e tem como objetivo explorar e exibir in
 
 A aplicação utiliza as seguintes tecnologias e conceitos:
 
-React Router para navegação fluida entre páginas.
+- React Router para navegação fluida entre páginas.
 
-Styled Components para estilização modular e personalizada.
+- Styled Components para estilização modular e personalizada.
 
-Design responsivo, inspirado em aplicativos de esportes reais, garantindo boa experiência em diferentes dispositivos.
+- Design responsivo, inspirado em aplicativos de esportes reais, garantindo boa experiência em diferentes dispositivos.
 
 O projeto é uma base sólida que pode ser expandida para incluir funcionalidades como:
 
