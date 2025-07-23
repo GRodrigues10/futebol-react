@@ -1,0 +1,63 @@
+import styled from "styled-components"
+
+export const TimesStyles = styled.div `
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    .title{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    p{
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        color: #B3B3B3;
+    }
+
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        
+    }
+
+    grid-template-columns: repeat(3, 1fr);
+
+    .box{
+        background-color: #1A1A1A;
+        width: 200px;
+        padding: 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: .4s ease;
+    }
+
+    .box:hover{
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+    }
+    .box h1{
+        font-size: 1.5rem ;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    img{
+        width: 100px;
+    }
+
+
+
+`
+ 

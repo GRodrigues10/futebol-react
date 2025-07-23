@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const PartidasStyles = styled.div`
-  margin-top: 50px;
+  margin-top: 60px;
+  padding-top: 60px;
   background-color: #0d1117; /* fundo elegante */
   color: white;
-  padding: 40px 20px;
+  padding:40px 20px;
   min-height: 100vh;
 
   h1 {

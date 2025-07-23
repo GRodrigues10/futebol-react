@@ -10,6 +10,20 @@ export const CampeonatoStyles = styled.div `
     margin-top: 50px;
     padding-top: 60px;
 
+     h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #c9d1d9;
+  }
+
     
 .box {
   background-color: #2d2f3a;
@@ -47,6 +61,24 @@ export const CampeonatoStyles = styled.div `
     text-align: justify;
     text-indent: 10px;
 }
+
+ .btn {
+    display: block;
+    margin: 50px auto 0;
+    padding: 14px 28px;
+    font-size: 1.2rem;
+    background-color:  #2d2f3a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #2d2f3a93;
+  }
 
     
 `

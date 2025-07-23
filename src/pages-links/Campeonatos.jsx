@@ -1,8 +1,14 @@
 // Campeonatos.jsx
 import Header from "../pages/header/Header.jsx";
 import { CampeonatoStyles } from "./CampeonatosStyled.js";
-
+import { useNavigate } from "react-router-dom";
 export default function Campeonatos() {
+
+  const navigate = useNavigate();
+
+  function voltar(){
+    navigate('/')
+  }
   const campeonatos = [
   {
     nome: "Brasileirão Série A",
@@ -60,12 +66,18 @@ export default function Campeonatos() {
     <>
       <Header />
       <CampeonatoStyles>
+        <h1>Campeonatos</h1>
+    <p>
+  Conheça os principais campeonatos que agitam o mundo do futebol.
+</p>
         {campeonatos.map((camp, index) => (
           <div key={index} className="box">
             <h1>{camp.nome}</h1>
             <p>{camp.descricao}</p>
           </div>
         ))}
+
+        <button onClick={voltar} className="btn">Voltar</button>
       </CampeonatoStyles>
     </>
   );
