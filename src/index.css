@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body{
+
+  font-family: sans-serif;
+}
+
+
+/* 
+Elemento	Cor	Código HEX:
+
+Fundo principal	Preto quase puro	- #0b0b0b
+Texto principal (título)	Branco puro	- #ffffff
+Texto secundário	Cinza claro - #a1a1aa
+Cor de destaque (menu/tema)	Verde-esporte escuro - #16a34a
+Rodapé (fundo)	Cinza escuro - #1f2937
+
+ */
