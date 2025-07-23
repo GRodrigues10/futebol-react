@@ -11,12 +11,13 @@ export const PartidasStyles = styled.div`
   h1 {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #00bcd4;
+
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 40px;
     color: #c9d1d9;

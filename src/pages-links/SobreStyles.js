@@ -13,6 +13,23 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 768px;
   text-align: center;
+  .btn {
+    display: block;
+    margin: 50px auto 0;
+    padding: 14px 28px;
+    font-size: 1.2rem;
+    background-color:  #2d2f3a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #2d2f3a93;
+  }
 `;
 
 export const Title = styled.h1`

@@ -8,6 +8,13 @@ export const TimesStyles = styled.div `
     flex-direction: column;
     align-items: center;
     color: white;
+
+  .box-container a {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+}
+    
     
     .title{
         font-size: 3rem;
@@ -57,6 +64,24 @@ export const TimesStyles = styled.div `
         width: 100px;
     }
 
+
+    .btn {
+    display: block;
+    margin: 50px auto 0;
+    padding: 14px 28px;
+    font-size: 1.2rem;
+    background-color:  #2d2f3a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #2d2f3a93;
+  }
 
 
 `

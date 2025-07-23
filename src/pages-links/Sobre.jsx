@@ -7,8 +7,15 @@ import {
   Highlight,
 } from './SobreStyles';
 import Header from '../pages/header/Header';
+import { useNavigate } from 'react-router-dom';
 
 function Sobre() {
+
+  const navigate =  useNavigate();
+  function voltar(){
+    navigate('/')
+  }
+
   return (
     <>
      <Header/>
@@ -25,6 +32,7 @@ function Sobre() {
         <Paragraph>
           O projeto é totalmente responsivo e pode ser expandido para incluir estatísticas dos jogadores, histórico de confrontos e integração com APIs de dados esportivos no futuro.
         </Paragraph>
+        <button className='btn' onClick={voltar}>Voltar</button>
       </Content>
     </Container>
     </>
