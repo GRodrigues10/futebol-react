@@ -1,12 +1,20 @@
-# React + Vite
+# Projeto Clubes de Futebol - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Sobre o Projeto
+Este projeto foi desenvolvido com React e tem como objetivo explorar e exibir informações sobre os principais clubes de futebol do mundo. Através de uma interface moderna e dinâmica, os usuários podem navegar entre as páginas dos times, visualizar partidas recentes, placares e outros detalhes relevantes.
 
-Currently, two official plugins are available:
+A aplicação utiliza as seguintes tecnologias e conceitos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Router para navegação fluida entre páginas.
 
-## Expanding the ESLint configuration
+Styled Components para estilização modular e personalizada.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Design responsivo, inspirado em aplicativos de esportes reais, garantindo boa experiência em diferentes dispositivos.
+
+O projeto é uma base sólida que pode ser expandida para incluir funcionalidades como:
+
+Estatísticas detalhadas dos jogadores.
+
+Histórico de confrontos entre equipes.
+
+Integração com APIs externas de dados esportivos para atualização em tempo real
