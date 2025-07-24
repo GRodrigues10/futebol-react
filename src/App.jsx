@@ -11,20 +11,17 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-      
-          <Routes>
+      <BrowserRouter basename="/futebol-react">
+  <Routes>
+    <Route path='/' element={<Home />} />
+    <Route path='/campeonatos' element={<Campeonatos />} />
+    <Route path='/partidas' element={<Partidas />} />
+    <Route path='/times' element={<Times />} />
+    <Route path='/sobre' element={<Sobre />} />
+    <Route path='/jogadores' element={<Jogadores />} />
+  </Routes>
+</BrowserRouter>
 
-            <Route path='/' element = {<Home/>}/>
-            <Route path='/campeonatos' element = {<Campeonatos/>}/>
-            <Route path='/partidas' element = {<Partidas/>}/>
-            <Route path='/times' element = {<Times/>}/>
-            <Route path='/sobre' element = {<Sobre/>}/>
-            <Route path='/jogadores' element = {<Jogadores/>}/>
-
-          </Routes>
-      
-      </BrowserRouter>
     </>
   );
 }
