@@ -785,7 +785,12 @@ nav ul li a:hover {
   box-shadow: 2px 2px 8px #000000ab;
   color: white;
   cursor: pointer;
-  height: 1235px;
+  
+  max-height: 1236px;      /* limita a altura máxima para não ficar gigante */
+        /* adiciona barra de rolagem vertical se passar do limite */
+  height: auto;           /* deixa crescer até o limite do max-height */
+
+
   /* position: relative;
   bottom: 85px; */
 }
