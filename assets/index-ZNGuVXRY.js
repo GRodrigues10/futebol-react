@@ -723,31 +723,48 @@ nav ul li a:hover {
 
     }
 
+  
+
    
-    .lista-campeonatos{
-        display: flex;
-        flex-direction: column;
-    }
+.lista-campeonatos {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #2d2f3a;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  min-height: 250px;
+  min-width: 300px;
+  transition: .4s ease;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
 
-    .item-campeonato{
-        padding: 20px;
-        background-color: #161515ff;
-        margin:10px 0;
-        width: 100%;
-        border-radius:5px;
-        cursor: pointer;
-        transition: .4s ease;
-    }
+.item-campeonato {
+  padding: 20px;
+  background-color: #161515ff;
+  margin: 10px 0;
+  width: 100%; /* ocupa toda largura disponível sem extrapolar */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .4s ease;
+}
 
-    .item-campeonato:hover{
-        background-color: white;
-        color: black;
-    }
+
+.item-campeonato:hover {
+  background-color: white;
+  color: black;
+}
+
+
 
     .partidas{
         width: 500px;
         /* height: 540px; */
-    }
+  }
 
 
   
