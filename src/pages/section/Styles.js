@@ -185,22 +185,23 @@ export const SectionStyles2 = styled.section `
   box-shadow: 2px 2px 8px #000000ab;
   color: white;
   cursor: pointer;
-  
-  max-height: 1236px;      /* limita a altura máxima para não ficar gigante */
-        /* adiciona barra de rolagem vertical se passar do limite */
-  height: auto;           /* deixa crescer até o limite do max-height */
 
-
-  /* position: relative;
-  bottom: 85px; */
+  /* Adicionados para igualar aos outros boxes */
+  margin: 0 30px;            /* igual ao .box */
+  min-height: 250px;         /* igual ao .box */
+  min-width: 300px;          /* igual ao .box */
+  text-align: center;        /* igual ao .box */
+  transition: .4s ease;      /* igual ao .box */
+  margin-bottom: 50px;       /* evita grudar no footer */
 }
+
 .jogador{
     position: relative;
     top: 5px;
 }
 
 .lista-jogadores {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .lista-jogadores ul {
@@ -243,6 +244,27 @@ export const SectionStyles2 = styled.section `
     img{
         width: 50px;
     }
+
+
+.times {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #2d2f3a;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px #000000ab;
+  text-align: center;
+  cursor: pointer;
+
+  /* Igual aos outros boxes */
+  margin: 0 30px;
+  min-height: 250px;
+  min-width: 300px;
+  transition: .4s ease;
+  margin-bottom: 50px;
+}
+
 
 
  .lista-times {
