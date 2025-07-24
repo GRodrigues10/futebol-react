@@ -78,20 +78,25 @@ export const SectionStyles2 = styled.section `
        
         
     }
-    .box{
-        width: 100%;
-        background-color: #2d2f3a;
-        color: white;
-        padding: 20px;
-        margin: 0 30px;
-        border-radius: 5px;
-        text-align: center;
-        min-height: 250px;
-        min-width: 300px;
-        box-shadow: 2px 2px 4px black;
-        transition: .4s ease;
-       
-    }
+   .box {
+  margin: 0 30px;
+  min-height: 250px;
+  min-width: 300px;
+  padding: 20px;
+  background-color: #2d2f3a;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  transition: .4s ease;
+  box-shadow: 2px 2px 4px black;
+}
+
+.box.campeonatos,
+.box.times,
+.box.jogadores {
+  max-width: 500px;
+  width: 100%;
+}
 
     .box h1{
         margin-bottom: 10px;
@@ -127,20 +132,17 @@ export const SectionStyles2 = styled.section `
 
    
 .lista-campeonatos {
-  width: 100%;
-  max-width: 500px;
   padding: 20px;
   background-color: #2d2f3a;
   color: white;
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
-  min-height: 250px;
-  min-width: 300px;
   transition: .4s ease;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+ 
+  
 }
 
 .item-campeonato {
