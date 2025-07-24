@@ -792,6 +792,11 @@ nav ul li a:hover {
          cursor: pointer;
     }
 
+    .times .btn{
+      position: relative;
+      margin-top: 20px;
+    }
+
 
  
 
@@ -862,6 +867,11 @@ nav ul li a:hover {
 
     img{
         width: 50px;
+    }
+
+    .jogadores .btn{
+      margin-top: 10px;
+
     }
 
 
@@ -955,7 +965,8 @@ nav ul li a:hover {
 
 .partidas .btn{
     position: relative;
-    margin-top:20px;
+    margin-top: 50px;
+   
 }
 
 .lista-partidas li:hover {
@@ -1046,7 +1057,7 @@ nav ul li a:hover {
   }
 
   .partidas {
-    width: 90%;
+    width: 100%;
   }
 
 
@@ -1110,7 +1121,8 @@ nav ul li a:hover {
   }
 
   .partidas {
-    width: 90%;
+    width: 500px;
+
   }
   .box h1 {
     font-size: 1.6rem;
@@ -1141,11 +1153,26 @@ nav ul li a:hover {
   }
 }
 
+@media screen and (max-width:555px) {
+  .box {
+    padding: 16px;
+    transition: .4s ease;
+    width: 400px !important;
+  }
+
+  
+} 
+
 /* Ajustes para smartphones */
 @media (max-width: 480px) {
   .box {
     padding: 16px;
     transition: .4s ease;
+    width: 300px !important;
+  }
+
+  .partidas{
+    width: 300px;
   }
 
   .box h1 {
