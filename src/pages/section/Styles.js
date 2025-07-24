@@ -192,6 +192,11 @@ export const SectionStyles2 = styled.section `
          cursor: pointer;
     }
 
+    .times .btn{
+      position: relative;
+      margin-top: 20px;
+    }
+
 
  
 
@@ -262,6 +267,11 @@ export const SectionStyles2 = styled.section `
 
     img{
         width: 50px;
+    }
+
+    .jogadores .btn{
+      margin-top: 10px;
+
     }
 
 
@@ -355,7 +365,8 @@ export const SectionStyles2 = styled.section `
 
 .partidas .btn{
     position: relative;
-    margin-top:20px;
+    margin-top: 50px;
+   
 }
 
 .lista-partidas li:hover {
@@ -446,7 +457,7 @@ export const SectionStyles2 = styled.section `
   }
 
   .partidas {
-    width: 90%;
+    width: 100%;
   }
 
 
@@ -510,7 +521,8 @@ export const SectionStyles2 = styled.section `
   }
 
   .partidas {
-    width: 90%;
+    width: 500px;
+
   }
   .box h1 {
     font-size: 1.6rem;
@@ -541,11 +553,26 @@ export const SectionStyles2 = styled.section `
   }
 }
 
+@media screen and (max-width:555px) {
+  .box {
+    padding: 16px;
+    transition: .4s ease;
+    width: 400px !important;
+  }
+
+  
+} 
+
 /* Ajustes para smartphones */
 @media (max-width: 480px) {
   .box {
     padding: 16px;
     transition: .4s ease;
+    width: 300px !important;
+  }
+
+  .partidas{
+    width: 300px;
   }
 
   .box h1 {
