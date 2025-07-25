@@ -98,4 +98,145 @@ export const PartidasStyles = styled.div`
   .btn:hover {
     background-color: #0097a7;
   }
+
+  @media screen and (max-width:930px) {
+    h1{
+      font-size: 2.8rem;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+
+    .time{
+      font-size: 1.3rem;
+    }
+
+    .vs{
+      font-size: 1.4rem;
+    }
+
+    .gols{
+      font-size: 1.4rem;
+    }
+
+    .btn{
+      font-size:1.2rem;
+    }
+
+    @media screen and (max-width:768px) {
+        h1{
+      font-size: 2.6rem;
+    }
+    p{
+      font-size: 1.1rem;
+    }
+
+    .time{
+      font-size: 1.2rem;
+    }
+
+    .time-direita img{
+      width: 40px;
+    }
+
+    .time-esquerda img{
+      width: 40px;
+    }
+
+    .vs{
+      font-size: 1.3rem;
+    }
+
+    .gols{
+      font-size: 1.3rem;
+    }
+
+    .btn{
+      font-size:1.1rem;
+    }
+
+    }
+
+    @media screen and (max-width:530px){
+        h1{
+      font-size: 2.4rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+
+    .time{
+      font-size: 0.9rem;
+    }
+
+    .time-direita img{
+      width: 30px;
+    }
+
+    .time-esquerda img{
+      width: 30px;
+    }
+
+    .vs{
+      font-size: 1.1rem;
+    }
+
+    .gols{
+      font-size: 1.1rem;
+    }
+
+    .btn{
+      font-size:1rem;
+    }
+    }
+
+    @media screen and (max-width:480px) {
+      h1{
+      font-size: 2.2rem;
+    }
+    p{
+      font-size: 0.9rem;
+    }
+
+    .time{
+      font-size: 0.8rem;
+
+    
+    }
+    .time-esquerda{
+      position: relative;
+      right: 20px;
+    }
+
+     .time-direita{
+      position: relative;
+      left: 20px;
+    }
+
+    .time-direita img{
+      width: 25px;
+    }
+
+    .time-esquerda img{
+      width: 25px;
+    }
+
+    .vs{
+      font-size: 0.9rem;
+    }
+
+    .gols{
+            font-size: 0.9rem;
+
+    }
+
+    .btn{
+      font-size:0.8rem;
+    }
+
+   
+    }
+
+   
+  }
 `;

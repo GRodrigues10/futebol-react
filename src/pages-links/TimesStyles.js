@@ -31,6 +31,8 @@ export const TimesStyles = styled.div `
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
+        transition: .4s ease;
+
         
     }
 
@@ -81,6 +83,76 @@ export const TimesStyles = styled.div `
 
   .btn:hover {
     background-color: #2d2f3a93;
+  }
+
+
+  @media screen and (max-width:930px) {
+    .box-container{
+        grid-template-columns:repeat(3, 1fr);
+        transition: .4s ease;
+
+    }
+
+    .title{
+        font-size: 2.8rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+  }
+
+    @media screen and (max-width:768px) {
+    .box-container{
+        grid-template-columns:repeat(2, 1fr);
+        transition: .4s ease;
+    }
+
+    .title{
+        font-size: 2.6rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    img{
+        width: 80px;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+
+  }
+
+  @media screen and (max-width:530px) {
+     .box-container{
+        grid-template-columns:1fr;
+        transition: .4s ease;
+    }
+    .box{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 2.4rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    img{
+        width: 80px;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
   }
 
 
