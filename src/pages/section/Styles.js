@@ -2,7 +2,7 @@ import { styled } from 'styled-components'
 
 
 export const SectionStyles = styled.section `
-    height: 700px;
+    height: 100vh;
     background-color: #111111ff;
     color: black;
     text-align: center;
@@ -14,12 +14,11 @@ export const SectionStyles = styled.section `
    h1{
     font-size: 5rem;
    position: relative;
-   bottom: 10px;
     text-shadow: 0px 2px 4px black;
    }
 
    p{
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.6rem;
     color: #d1d5db;
    }

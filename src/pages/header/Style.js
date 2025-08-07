@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header`
-  padding: 10px 30px;
+  padding: 20px 30px;
   background-color: #1f1f1f;
   color: white;
   z-index: 999;
@@ -10,6 +10,7 @@ export const HeaderStyle = styled.header`
   top: 0;
   left: 0;
   transition: background-color 0.3s ease;
+
 
   h1 {
     margin: 0;
