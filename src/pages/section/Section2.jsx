@@ -9,13 +9,12 @@ import paris from "../../assets/psg2-logo.png";
 import barça from "../../assets/barça-logo.png";
 import ajax from "../../assets/ajax-logo.png";
 import bayern from "../../assets/bayern2-log.png";
+
 import vinijr from "../../assets/vini.png";
 import arias from "../../assets/arias.png";
 import musiala from "../../assets/musiala2.png";
 import mbappe from "../../assets/mbappe.png";
 import haaland from "../../assets/haaland.png";
-
-
 import bellingham from '../../assets/jude.png'
 import debruyne from '../../assets/de-bruyne.png'
 import luisdiaz from '../../assets/luiz.png'
