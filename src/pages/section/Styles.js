@@ -64,19 +64,18 @@ export const SectionStyles2 = styled.section `
     display: flex;
     align-items: center;
     justify-content: center;
+ 
    
     
  
-    .container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        padding-top: 50px;
-        width: 100%;
-
-       
-        
-    }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-top: 50px;
+    width: 100%;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
    .box {
   margin: 0 30px;
   min-height: 250px;
@@ -445,6 +444,8 @@ export const SectionStyles2 = styled.section `
     grid-template-columns: repeat(1fr);
     padding: 20px;
   }
+
+
   .box {
     margin: 0 auto;
     width: 90%;
@@ -618,7 +619,19 @@ export const SectionStyles2 = styled.section `
   }
 }
 
+@media screen and (min-width:1200px) {
+   
+.container {
+  display: flex;
+  flex-wrap: wrap; /* quebra linha se faltar espaço */
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 30px;
+  padding-top: 50px;
+  width: 100%;
 
+}
+
+}
    
 `
 

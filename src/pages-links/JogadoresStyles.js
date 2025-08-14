@@ -112,6 +112,11 @@ export const StylesJogadores = styled.div`
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .player{
+        width: 230px;
+        height: 230px;
+    }
+
          h1 {
     font-size: 3rem;
   }
@@ -119,6 +124,10 @@ export const StylesJogadores = styled.div`
   p {
     font-size: 1.5rem;
    
+  }
+
+  .btn{
+    font-size: 1.5rem;
   }
   }
 `;
